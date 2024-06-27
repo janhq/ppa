@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/janhq.gpg] https://${GITHUB_USERNAME}.github.io/my_ppa ./

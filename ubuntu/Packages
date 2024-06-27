@@ -1,0 +1,35 @@
+Package: cortexso
+Version: 0.4.17
+Architecture: amd64
+Maintainer: Homebrew Pte Ltd <service@jan.ai>
+Depends: openmpi-bin,libopenmpi-dev
+Filename: ./cortex-installer-0.4.17-amd64-linux.deb
+Size: 30373004
+MD5sum: 2851fb5edef88bc32a96a54891bc45d9
+SHA1: 21f9dd1bfc077e6c61d351d5d8a4bf507cc1317a
+SHA256: 9daa5fe3e470bba8e923ae5fe51ad04e3ea9e29f600ff50dc4bf929d1d2cffc0
+Section: base
+Priority: optional
+Description: Cortex
+ Cortex is an OpenAI-compatible AI engine that developers can use to build LLM apps. It is packaged with a Docker-inspired command-line interface and client libraries. It can be used as a standalone server or imported as a library.
+
+Package: jan
+Version: 0.5.1
+Architecture: amd64
+Maintainer: Jan <service@jan.ai>
+Installed-Size: 412491
+Depends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0
+Recommends: libappindicator3-1
+Filename: https://github.com/janhq/jan/releases/download/v0.5.1/jan-linux-amd64-0.5.1.deb
+Size: 165418696
+MD5sum: 85906924cbacacada42dfefb343eb1de
+SHA1: 1dbf2c75107747331b77c05245bc2e3204bc8a91
+SHA256: bbd6de9353284a344a7efd35f994b546553b70556dd97ba8431da4ab80bf42e9
+Section: default
+Priority: optional
+Homepage: https://github.com/janhq/jan/tree/main/electron
+Description:
+  Use offline LLMs with your own data. Run open source models like Llama2 or Falcon on your internal computers/servers.
+License: MIT
+Vendor: Jan <service@jan.ai>
+
